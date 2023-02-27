@@ -1,0 +1,142 @@
+
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+
+
+
+body {
+
+    width: 1000px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(240, 239, 239)
+}
+
+/*-----------------------------------------------------start ul------------------------------------------*/
+ul {
+margin: 0px -350px ;
+}
+
+
+
+
+#Register {
+    
+    
+    padding: 5px 10px 5px 10px;
+    margin: 40px 0px 40px 0px;
+    font-size: 20px;
+    background-color: rgb(61, 180, 183);
+    color: white;
+    
+    border-style: hidden;
+    border-radius: 0.3ch;
+    border-width: 1px;
+    border-color: rgb(61, 180, 183);
+    
+}
+/*  Features  */
+#introducrion {
+    font-size: large;
+    font-weight: 600;
+    color: #9e9e9e;
+}
+
+.content {
+    padding: 2px 0px 18px 0px;
+    display: flex;
+}
+
+.content img {
+    padding: 0px 0px 0px 0px;
+margin-top: 65px;
+margin-left: 20px;
+width: 45px;
+height: 45px;
+margin-right: 50px;
+display: block;
+
+}
+
+.content h3,.content p {
+margin:-20px 0px 0px 0px;
+}
+#rev{margin-right: 65px;}
+
+/*-----------------------------------------------------End ul------------------------------------------*/
+
+/*-----------------------------------------------Start Form-----------------------------------------------------*/
+form {
+border-style: outset;
+border-radius: 0.3ch;
+border-width: 1px;
+background-color: rgba(255, 255, 255, 0.898);
+width: 450px;
+height: 450px;
+padding: 55px 35px 80px 35px;
+margin: 15px 0px 0px 60px;
+position: absolute;
+}
+
+
+/* تسجيل الدخول الى الحساب  */
+
+#lbl {
+    font-size: 27px;
+    font-weight: 700;
+
+}
+
+/* البريد الالكتروني والباس*/
+input.font-weight {
+    font-weight: 900;
+width: 365px;
+height: 45px;
+padding: 7px;
+margin: 4px;
+
+}
+
+/* تسجل الدخول */
+
+#btn_login {
+    padding: 10px 168px;
+margin: 40px -1px;
+font-size: 20px;
+background-color: rgb(61, 180, 183);
+color: white;
+border-style: outset;
+border-radius: 0.3ch;
+border-width: 1px;
+border-color: rgb(61, 180, 183);
+
+}
+
+/* هل نسيت كلمه المرور */
+#Pass_recovery {
+    padding: 0px 30px 0px 0px;
+    margin: 40px 60px 0px 0px;
+
+}
+  /*نوع الخط في الفقرات */
+.bold {
+    font-weight: bold;
+    color: #9e9e9e;
+}
+/*img login */
+.img_login {
+    border-style: groove;
+    border-width: 1px;
+    padding: 8px 8px 8px 8px;
+    margin: 0px 0px -27px -9px;
+    width: 45px;
+    height: 45px;
+}
+
+
+
+/*----------------------------------------------- End Form-----------------------------------------------------*/
+
+/* Write your code here */
